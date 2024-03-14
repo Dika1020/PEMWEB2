@@ -46,7 +46,6 @@ $domisili = [
             $myskills = $_POST['skills'];
             $domisili = $_POST['domisili'];
 
-            // Hitung total poin keterampilan
             $totalPoint = 0;
             foreach ($myskills as $skill) {
                 if (isset($skills[$skill])) {
